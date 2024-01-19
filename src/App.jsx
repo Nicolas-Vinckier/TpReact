@@ -7,10 +7,13 @@ import Presentation from "./pages/Presentation/Presentation";
 import Map from "./pages/Carte/Map";
 import Localization from "./pages/Localisation/Localization";
 import Footer from "./pages/Footer/Footer";
+import Header from "./pages/Header/Header";
 
 function App() {
   return (
     <>
+      <Header />  
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/presentation" element={<Presentation />} />
