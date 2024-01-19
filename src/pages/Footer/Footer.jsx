@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="navbar-footer">
       <ul>
         <li>
           <a href="/gestion-stock">Gestion du stock</a>
