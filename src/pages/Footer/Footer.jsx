@@ -6,18 +6,6 @@ function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="/">Accueil</a>
-        </li>
-        <li>
-          <a href="/presentation">Présentation</a>
-        </li>
-        <li>
-          <a href="/carte">Carte</a>
-        </li>
-        <li>
-          <a href="/localisation">Localisation</a>
-        </li>
-        <li>
           <a href="/gestion-stock">Gestion du stock</a>
         </li>
       </ul>
