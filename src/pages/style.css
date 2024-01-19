@@ -45,6 +45,7 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
     transition: color 0.3s ease-in-out;
 }
 
+/* --------------- Navbar Footer */
 
 .navbar-footer {
     background-color: #000000;
@@ -53,7 +54,7 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
     font-size: 1rem;
     font-weight: 500;
     padding: 0.5rem 1rem;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     z-index: 1;
@@ -91,5 +92,5 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
 */
 
 h1 {
-    margin-top: 2em;
+    margin: 2em 1em 0 1em;
 }
