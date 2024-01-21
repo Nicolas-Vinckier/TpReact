@@ -10,15 +10,14 @@ export default function ListePlatProvider({ children }) {
   const [ListePlatState, setListePlat] = useState([]);
 
   useEffect(() => {
-    setListePlat(data.recipes)
-    debugger
+    setListePlat(data.recipes);
+    debugger;
   }, [data]);
-
 
   return (
     <ListePlatContext.Provider
       value={{
-        ListePlatState
+        ListePlatState,
       }}
     >
       {children}
