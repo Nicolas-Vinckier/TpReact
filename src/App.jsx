@@ -20,7 +20,7 @@ function App() {
   const [platState, setPlatState] = useState([]);
 
   useEffect(() => {
-    setPlatState(data.recipes)
+    setPlatState(data.recipes);
   }, [data]);
 
   return (
