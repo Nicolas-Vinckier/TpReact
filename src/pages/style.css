@@ -18,6 +18,10 @@ body {
     overflow-x: hidden;
 }
 
+#main {
+    min-height: 100vh;
+}
+
 /* 
   _   _             ____             
  | \ | |           |  _ \            
@@ -30,40 +34,6 @@ body {
 
 
 
-/* --------------- Navbar Footer */
-
-.navbar-footer {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    /* position: fixed; */
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.navbar-footer ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-}
-
-.navbar-footer li {
-    padding: 0.5rem 0;
-    margin: 0 1rem;
-}
-
-.navbar-footer a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
 
 /* 
 
