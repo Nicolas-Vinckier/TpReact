@@ -19,9 +19,8 @@ function Home() {
       <h1>Accueil</h1>
 
       <div className="carousel">
-
         {/* Mettre en commentaire le carousel si il fait planter React*/}
-
+        <img src="src/pages/Accueil/fakecarou.png" alt="fake-carousel" />
         {/* <Carousel>
           {platState.map((plat) => (
             <div key={plat.id}>
