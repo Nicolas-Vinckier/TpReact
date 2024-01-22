@@ -19,14 +19,17 @@ function Home() {
       <h1>Accueil</h1>
 
       <div className="carousel">
-        <Carousel>
+
+        {/* Mettre en commentaire le carousel si il fait planter React*/}
+
+        {/* <Carousel>
           {platState.map((plat) => (
             <div key={plat.id}>
               <img src={plat.image} alt={plat.name} />
               <p className="legend">{plat.name}</p>
             </div>
           ))}
-        </Carousel>
+        </Carousel> */}
       </div>
     </div>
   );
