@@ -4,6 +4,8 @@ import { Carousel } from "react-responsive-carousel";
 
 import { useFetchData } from "../../models/utils/hooks";
 
+import "../style.css";
+
 function Home() {
   const { data } = useFetchData("https://dummyjson.com/recipes");
   const [platState, setPlatState] = useState([]);
@@ -13,7 +15,7 @@ function Home() {
   }, [data]);
 
   return (
-    <div>
+    <div id="home">
       <h1>Accueil</h1>
 
       <div className="carousel">
