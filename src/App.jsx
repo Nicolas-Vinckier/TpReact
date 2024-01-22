@@ -6,6 +6,7 @@ import Home from "./pages/Accueil/Home";
 import Presentation from "./pages/Presentation/Presentation";
 import Map from "./pages/Carte/Menu";
 import Localization from "./pages/Localisation/Localization";
+import Panier from "./pages/Panier/Panier";
 import GestionStock from "./pages/GestionStock/GestionStock";
 import Sitemap from "./pages/Sitemap/Sitemap";
 import NotFound from "./pages/CatchError/NotFound";
@@ -32,12 +33,13 @@ function App() {
     <>
       <Header />
 
-      <section id="main">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/presentation" element={<Presentation />} />
-          <Route path="/carte" element={<Map />} />
-          <Route path="/localisation" element={<Localization />} />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/presentation" element={<Presentation />} />
+        <Route path="/carte" element={<Map />} />
+        <Route path="/localisation" element={<Localization />} />
+        <Route path="/panier" element={<Panier />} />
 
           <Route path="/gestion-stock" element={<GestionStock />} />
           <Route path="/sitemap" element={<Sitemap />} />

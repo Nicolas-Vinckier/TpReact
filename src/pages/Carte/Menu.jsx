@@ -6,6 +6,8 @@ import "./Menu.css";
 import ListePlat from "../../components/ListePlat/ListePlat";
 import { useFetchData } from "../../models/utils/hooks";
 
+import Panier from "../../components/Panier/PanierPopup";
+
 function Menu() {
   const { data } = useFetchData("https://dummyjson.com/recipes");
 
@@ -20,6 +22,12 @@ function Menu() {
       <h1>Menu</h1>
 
       <ListePlat listePlat={platState} />
+
+      <div className="panier">
+        <p>
+          <Panier />
+        </p>
+      </div>
     </div>
   );
 }

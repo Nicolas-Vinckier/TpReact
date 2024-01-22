@@ -1,3 +1,27 @@
+/* ________________________ DEBUG */
+/*  
+.plat-item {
+    background-color: red;
+}
+
+.plat-title {
+    background-color: green;
+}
+
+.plat-img {
+    background-color: blue;
+}
+
+.plat-ingr {
+    background-color: yellow;
+}
+
+.plat-achat {
+    background-color: orange;
+}
+*/
+/* ________________________ plat */
+
 div {
     /* flex wrap*/
     display: flex;
@@ -8,8 +32,6 @@ div {
 /* ________________________ plat-item */
 
 .plat-item {
-    /* background-color: red; */
-
     display: flex;
     flex-direction: row;
     /* width: 25%; */
@@ -31,8 +53,6 @@ div {
 /* ________________________ plat-title */
 
 .plat-title {
-    /* background-color: green; */
-
     display: block;
     width: 100%;
     height: 10%;
@@ -48,11 +68,9 @@ div {
 /* ________________________ plat-img */
 
 .plat-img {
-    /* background-color: blue; */
-
     display: block;
     width: 100%;
-    height: 50%;
+    height: 40%;
 }
 
 .plat-img img {
@@ -67,8 +85,6 @@ div {
 /* ________________________ plat-ingr */
 
 .plat-ingr {
-    /* background-color: yellow; */
-
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -84,4 +100,11 @@ div {
     padding: 0;
     /* text size */
     font-size: 0.8em;
+}
+
+/* ________________________ plat-achat */
+
+.plat-achat {
+    width: 100%;
+    height: 10%;
 }
