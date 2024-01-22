@@ -1,8 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 
-import ListePlat from "../../components/ListePlat/ListePlat";
+import "./Menu.css";
 
+import ListePlat from "../../components/ListePlat/ListePlat";
 import { useFetchData } from "../../models/utils/hooks";
 
 function Menu() {
@@ -15,7 +16,7 @@ function Menu() {
   }, [data]);
 
   return (
-    <div>
+    <div id="menu">
       <h1>Menu</h1>
 
       <ListePlat listePlat={platState} />
