@@ -13,6 +13,8 @@ import NotFound from "./pages/CatchError/NotFound";
 import Footer from "./pages/Footer/Footer";
 import Header from "./pages/Header/Header";
 
+import "./pages/style.css";
+
 // import ListePlatProvider from "./models/utils/context";
 // import ListePlat from "./components/ListePlat/ListePlat";
 // import { useFetchData } from "./models/utils/hooks";
@@ -31,6 +33,7 @@ function App() {
     <>
       <Header />
 
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/presentation" element={<Presentation />} />
@@ -38,11 +41,12 @@ function App() {
         <Route path="/localisation" element={<Localization />} />
         <Route path="/panier" element={<Panier />} />
 
-        <Route path="/gestion-stock" element={<GestionStock />} />
-        <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/gestion-stock" element={<GestionStock />} />
+          <Route path="/sitemap" element={<Sitemap />} />
 
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </section>
 
       <Footer />
     </>

@@ -6,7 +6,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="navbar-footer">
+    <footer className="footer">
       <ul>
         <li>
           <a href="/gestion-stock">Gestion du stock</a>
