@@ -2,14 +2,23 @@
 import React from "react";
 
 import "../style.css";
+import "./Header.css";
 
 function Header() {
   return (
     <header className="navbar">
       <ul>
         <li>
-          <a href="/">Accueil</a>
+          <a href="/">
+            <img src="src/pages/Header/logo.png" alt="Logo du restaurant" />
+          </a>
         </li>
+      </ul>
+
+      <ul>
+        {/* <li>
+          <a href="/">Accueil</a>
+        </li> */}
         <li>
           <a href="/presentation">Présentation</a>
         </li>

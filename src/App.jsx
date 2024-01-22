@@ -6,6 +6,9 @@ import Home from "./pages/Accueil/Home";
 import Presentation from "./pages/Presentation/Presentation";
 import Map from "./pages/Carte/Menu";
 import Localization from "./pages/Localisation/Localization";
+import GestionStock from "./pages/GestionStock/GestionStock";
+import Sitemap from "./pages/Sitemap/Sitemap";
+import NotFound from "./CatchError/NotFound";
 import Footer from "./pages/Footer/Footer";
 import Header from "./pages/Header/Header";
 
@@ -32,6 +35,11 @@ function App() {
         <Route path="/presentation" element={<Presentation />} />
         <Route path="/carte" element={<Map />} />
         <Route path="/localisation" element={<Localization />} />
+
+        <Route path="/gestion-stock" element={<GestionStock />} />
+        <Route path="/sitemap" element={<Sitemap />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

@@ -1,0 +1,39 @@
+#not-found {
+    height: 100vh;
+}
+
+#not-found h1 {
+    color: red;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#not-found h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#not-found a {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#not-found button {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}

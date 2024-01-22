@@ -2,6 +2,7 @@
 import React from "react";
 
 import "../style.css";
+import "./footer.css";
 
 function Footer() {
   return (
@@ -9,6 +10,15 @@ function Footer() {
       <ul>
         <li>
           <a href="/gestion-stock">Gestion du stock</a>
+          <a href="/sitemap">Plan du site</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/">Accueil</a>
+          <a href="/presentation">Présentation</a>
+          <a href="/carte">Carte</a>
+          <a href="/localisation">Localisation</a>
         </li>
       </ul>
     </footer>
