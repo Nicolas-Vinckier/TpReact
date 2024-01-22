@@ -8,7 +8,7 @@ import Map from "./pages/Carte/Menu";
 import Localization from "./pages/Localisation/Localization";
 import GestionStock from "./pages/GestionStock/GestionStock";
 import Sitemap from "./pages/Sitemap/Sitemap";
-import NotFound from "./CatchError/NotFound";
+import NotFound from "./pages/CatchError/NotFound";
 import Footer from "./pages/Footer/Footer";
 import Header from "./pages/Header/Header";
 
