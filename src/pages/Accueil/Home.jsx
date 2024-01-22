@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 import { useFetchData } from "../../models/utils/hooks";
 
-import "../style.css";
+import "./Home.css";
 
 function Home() {
   const { data } = useFetchData("https://dummyjson.com/recipes");
