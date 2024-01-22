@@ -3,6 +3,22 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
 */
 
 /* 
+
+  ____                 
+ |  _ \                
+ | |_) | __ _ ___  ___ 
+ |  _ < / _` / __|/ _ \
+ | |_) | (_| \__ \  __/
+ |____/ \__,_|___/\___|
+                       
+*/
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* 
   _   _             ____             
  | \ | |           |  _ \            
  |  \| | __ ___   _| |_) | __ _ _ __ 
@@ -93,4 +109,47 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
 
 h1 {
     margin: 2em 1em 0 1em;
+}
+
+/* 
+
+   _____                               _ 
+  / ____|                             | |
+ | |     __ _ _ __ ___  _   _ ___  ___| |
+ | |    / _` | '__/ _ \| | | / __|/ _ \ |
+ | |___| (_| | | | (_) | |_| \__ \  __/ |
+  \_____\__,_|_|  \___/ \__,_|___/\___|_|
+                                         
+*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    width: 50%;
+    margin: auto;
+    /* overflow: hidden; */
+    margin-bottom: 1em;
+}
+
+.carousel img {
+    /* display: block; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* transform: scale(0.7) translateY(-40%); */
+
+}
+
+.carousel .legend {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
 }

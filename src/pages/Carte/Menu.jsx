@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-function Map() {
+function Menu() {
   return (
     <div>
-      <h1>Carte</h1>
+      <h1>Menu</h1>
     </div>
   );
 }
 
-export default Map;
+export default Menu;
