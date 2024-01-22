@@ -2,6 +2,7 @@ import React, { Component, useEffect, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import "./Plat.css";
+import "./button.css";
 
 function Plat({ plat }) {
   return (
@@ -19,6 +20,14 @@ function Plat({ plat }) {
             <li key={ingredient}>- {ingredient}</li>
           ))}
         </ul>
+      </div>
+      <div className="plat-achat">
+        <button className="button" style={{ "--clr": "#00ad54" }}>
+          <span className="button-decor"></span>
+          <div className="button-content">
+            <span className="button__text">Ajouter</span>
+          </div>
+        </button>
       </div>
     </div>
   );
