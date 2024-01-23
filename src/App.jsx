@@ -12,23 +12,11 @@ import Sitemap from "./pages/Sitemap/Sitemap";
 import NotFound from "./pages/CatchError/NotFound";
 import Footer from "./pages/Footer/Footer";
 import Header from "./pages/Header/Header";
+import PageAuth from "./pages/PageAuth/PageAuth";
 
 import "./pages/style.css";
 
-// import ListePlatProvider from "./models/utils/context";
-// import ListePlat from "./components/ListePlat/ListePlat";
-// import { useFetchData } from "./models/utils/hooks";
-// import { useEffect } from "react";
-
 function App() {
-  // const { data } = useFetchData("https://dummyjson.com/recipes");
-
-  // const [platState, setPlatState] = useState([]);
-
-  // useEffect(() => {
-  //   setPlatState(data.recipes);
-  // }, [data]);
-
   return (
     <>
       <Header />
@@ -42,9 +30,10 @@ function App() {
           <Route path="/localisation" element={<Localization />} />
           <Route path="/panier" element={<Panier />} />
           <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/pageauth" element={<PageAuth />} />
 
           {/* Admin pages */}
-          <Route path="/gestion-stock" element={<GestionStock />} />
+          <Route path="/gestionstock" element={<GestionStock />} />
 
           {/* Error page */}
           <Route path="*" element={<NotFound />} />
