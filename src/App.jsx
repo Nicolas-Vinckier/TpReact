@@ -33,13 +33,13 @@ function App() {
     <>
       <Header />
 
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/presentation" element={<Presentation />} />
-        <Route path="/carte" element={<Map />} />
-        <Route path="/localisation" element={<Localization />} />
-        <Route path="/panier" element={<Panier />} />
+      <section>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/presentation" element={<Presentation />} />
+          <Route path="/carte" element={<Map />} />
+          <Route path="/localisation" element={<Localization />} />
+          <Route path="/panier" element={<Panier />} />
 
           <Route path="/gestion-stock" element={<GestionStock />} />
           <Route path="/sitemap" element={<Sitemap />} />
