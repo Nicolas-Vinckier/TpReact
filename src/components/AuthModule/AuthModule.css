@@ -9,6 +9,11 @@
     flex-direction: column;
 }
 
+.authmodule-container form {
+    display: flex;
+    flex-direction: column;
+}
+
 .authmodule-container label {
     font-size: 1em;
     font-weight: bold;
@@ -25,4 +30,10 @@
     font-size: 1.2em;
     padding: 0.5em;
     margin-top: 1em;
+}
+
+.authmodule-container .validations {
+    font-size: 0.8em;
+    color: red;
+    margin-top: 0.5em;
 }
