@@ -1,0 +1,28 @@
+/* DEBUG */
+/* .authmodule-container {
+    background-color: magenta;
+} */
+
+/* CSS */
+.authmodule-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.authmodule-container label {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.authmodule-container input {
+    font-size: 1em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.authmodule-container button {
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-top: 1em;
+}

@@ -27,18 +27,15 @@
 .auth-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
     width: 90%;
     min-height: 80vh;
 }
 
-.auth-signup {
-    display: flex;
-    width: 45%;
-}
-
+.auth-signup,
 .auth-signin {
     display: flex;
+    flex-direction: column;
     width: 45%;
+    margin-top: 3em;
 }
