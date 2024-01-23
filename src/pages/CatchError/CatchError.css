@@ -1,5 +1,9 @@
 #not-found {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+
 }
 
 #not-found h1 {
