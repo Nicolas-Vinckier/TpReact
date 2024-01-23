@@ -35,15 +35,18 @@ function App() {
 
       <section>
         <Routes>
+          {/* Classic pages */}
           <Route path="/" element={<Home />} />
           <Route path="/presentation" element={<Presentation />} />
           <Route path="/carte" element={<Map />} />
           <Route path="/localisation" element={<Localization />} />
           <Route path="/panier" element={<Panier />} />
-
-          <Route path="/gestion-stock" element={<GestionStock />} />
           <Route path="/sitemap" element={<Sitemap />} />
 
+          {/* Admin pages */}
+          <Route path="/gestion-stock" element={<GestionStock />} />
+
+          {/* Error page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </section>
