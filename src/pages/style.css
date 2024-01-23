@@ -13,10 +13,20 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
                        
 */
 
-#main {
-    min-height: 100vh;
-    min-width: 100%;
+/* #main {
+  min-height: 100vh;
+  min-width: 100%;
+} */
+
+section {
+  width: 100%;
+  /* height: 100%; */
+  /* min-height: 100vh; */
+  /* min-width: 100%; */
+
 }
+
+
 
 /* 
 
@@ -30,5 +40,5 @@ https://patorjk.com/software/taag/#p=display&f=Big&t=
 */
 
 h1 {
-    margin: 2.5em 1em 0 1em;
+  margin: 2.5em 1em 0 1em;
 }
