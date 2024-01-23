@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <ul>
         <li>
-          <a href="/gestion-stock">Gestion du stock</a>
+          <a href="/gestionstock">Gestion du stock</a>
           <a href="/sitemap">Plan du site</a>
         </li>
       </ul>

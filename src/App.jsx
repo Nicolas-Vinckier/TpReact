@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/Accueil/Home";
 import Presentation from "./pages/Presentation/Presentation";
@@ -17,6 +17,8 @@ import PageAuth from "./pages/PageAuth/PageAuth";
 import "./pages/style.css";
 
 function App() {
+  const [user, setUser] = useState(null);
+
   return (
     <>
       <Header />
@@ -32,8 +34,11 @@ function App() {
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/pageauth" element={<PageAuth />} />
 
-          {/* Admin pages */}
-          <Route path="/gestionstock" element={<GestionStock />} />
+          {/* Authed pages */}
+          <Route
+            path="/gestionstock"
+            element={user ? <GestionStock /> : <Navigate to="/pageauth" />}
+          />
 
           {/* Error page */}
           <Route path="*" element={<NotFound />} />
