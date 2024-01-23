@@ -4,7 +4,7 @@ import React from "react";
 function Sitemap() {
   return (
     <div>
-      <h1>Pland du site</h1>
+      <h1>Plan du site</h1>
     </div>
   );
 }
