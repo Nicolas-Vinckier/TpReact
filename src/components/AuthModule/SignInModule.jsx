@@ -1,7 +1,9 @@
+import "./AuthModule.css";
+
 export default function SignInModule() {
   return (
     <>
-      <div>
+      <div className="authmodule-container">
         <label htmlFor="email">Email</label>
 
         <input
