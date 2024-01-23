@@ -2,6 +2,7 @@
 import React from "react";
 
 import SignUpModule from "../../components/AuthModule/SignUpModule";
+import SignInModule from "../../components/AuthModule/SignInModule";
 
 import "./PageAuth.css";
 
@@ -17,6 +18,7 @@ function PageAuth() {
         </div>
         <div className="auth-signin">
           <h2>Se connecter</h2>
+          <SignInModule />
         </div>
       </div>
     </div>
